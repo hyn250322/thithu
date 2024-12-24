@@ -1,0 +1,7 @@
+﻿@model IEnumerable<thithu1.Context.PhanLoaiSanPham>
+
+<li class="active tab" data-id="0">All</li>
+@foreach (var item in Model)
+{
+    <li class="tab" data-id="@item.PhanLoaiSanPhamID">@item.TenPhanLoai</li>
+}

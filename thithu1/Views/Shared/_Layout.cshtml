@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ultras - Clothing Store eCommerce Store HTML Website Template</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/~/Content/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="~/Content/js/single.js"></script>
+    <script src="~/Content/js/modernizr.js"></script>
+</head>
+<body>
+
+    <div class="preloader-wrapper">
+        <div class="preloader"></div>
+    </div>
+    <div class="search-popup">
+        <!-- Search Popup code here -->
+    </div>
+    <header id="header">
+        <!-- Header content here -->
+    </header>
+    @RenderBody()  <!-- Render content of the page -->
+    <footer id="footer">
+        <!-- Footer content here -->
+    </footer>
+
+    <div id="footer-bottom">
+        <!-- Footer bottom content here -->
+    </div>
+
+    <script src="~/Content/js/jquery-1.11.0.min.js"></script>
+    <script src="~/Content/js/plugins.js"></script>
+    <script src="~/Content/js/script.js"></script>
+
+    @RenderSection("scripts", required: false) <!-- This is where your section will be rendered -->
+</body>
+</html>
